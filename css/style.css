@@ -10,7 +10,19 @@
 
 @import url(line-icons.css);
 
-
+.logo img{
+    width: 55px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.logo{
+    margin: 5px;
+}
+.logo a{
+    color: white;
+}
 
 body {
 
@@ -566,7 +578,7 @@ ul.sidebar-menu {
 
 ul.sidebar-menu li ul.sub li{
 
-    background: #394a59;
+    background: #696969;
 
     margin-bottom: 0;
 
@@ -982,6 +994,8 @@ ul.sidebar-menu li.active a i {
 
     padding: 0 15px;
 
+    background-color: #808080;
+
 }
 
 .box1 {
@@ -1007,6 +1021,8 @@ ul.sidebar-menu li.active a i {
     right: 0;
 
     z-index: 1002;
+
+    height: 10px;
 
 }
 
@@ -1222,23 +1238,35 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 }
 
+.isearch i{
+    font-size: 20px;
+    color: #000;
+    margin-top: 5px;
+    margin-left: 12px;
 
+}
+.isearch{
+    margin-top: 1px;
+    background-color: #696969;
+    width: 40px;
+    height: 30px;
+}
 
 .navbar-form .form-control{
 
-    width: 200px;
+    width: 600px;
 
     height: 30px;
 
-    background: white url('../img/icons/search-line-icon.png') no-repeat 3px;
-
-    padding-left: 24px;
+    background: black;
 
     margin-top: 1px;
 
+    border: #000;
+
+    border-radius: -0px;
+
 }
-
-
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
@@ -3574,9 +3602,10 @@ div[data-role="editor-toolbar"] {
 
     float: left;
 
-    padding-right: 15px;
+    padding-right: 5px;
 
-    margin-top: 20px;
+    margin-top: 10px;
+
 
 }
 
@@ -3588,7 +3617,11 @@ div[data-role="editor-toolbar"] {
 
     display: inline-block;
 
-    font-size: 20px;
+    font-size: 35px;
+
+    color: #D3D3D3;
+
+    margin-bottom: 0px;
 
 }
 
