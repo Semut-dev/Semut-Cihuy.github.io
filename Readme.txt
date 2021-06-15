@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Thanks for downloading this theme!
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Theme Name: NiceAdmin
+Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+Author: BootstrapMade
+Author URL: https://bootstrapmade.com
