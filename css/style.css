@@ -72,8 +72,6 @@ a, a:hover, a:focus {
 
 input:focus, textarea:focus { outline: none; }
 
-table tr th { color: #688a7e;}
-
 *:focus {outline: none;}
 
 ::selection {

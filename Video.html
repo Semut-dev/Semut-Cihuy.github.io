@@ -252,20 +252,27 @@
     <script src="js/morris.min.js"></script>
     <script src="js/sparklines.js"></script>
     <script src="js/charts.js"></script>
-    <script src="js/jquery.slimscroll.min.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    
     <script>
       $(document).ready(function(){
           var table = $('#dTable').DataTable({
               "ajax": {
                   "url": "data.json",
-                  "dataSrc": "data",
+                  "dataSrc": "video",
               },
               "ordering": false,
               "columns": [
-                  {"data": null},
-                  {
-                      "data": "title"
-                  }
+                  {"video": null},
+                  {"video": "title"}
               ],
               "language": {
                   "paginate": {
@@ -282,7 +289,6 @@
           }).draw();
           
       });
-      // <img src="Foto/2.png" class="cleanImg" height="75px" alt="">
   </script>
 
 </body>
