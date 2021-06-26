@@ -12,6 +12,8 @@
 
 html{
     display: block;
+    width: auto;
+    float: auto;
 }
 .logo img{
     width: 55px;
