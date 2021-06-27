@@ -222,13 +222,12 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 }
 
 .body-profile{
-    background-color: #808080;
+    background-color: #494444;
     max-height: fit-content;
     margin-left: 10px;
     margin-top: 5px;
     color: white;
 }
-
 .body-profile img{
     height: 250px;
     width: 350px;
